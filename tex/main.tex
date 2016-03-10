@@ -106,15 +106,19 @@
 
 \begin{document}
 
-\author{邱星翔}
-\title{桌面虚拟化的优化}
+\author{author}
+\title{title}
 \date{2016年上半年}
 
 \frontmatter
 \includepdf[pages={1-}]{../docs/frontpages.pdf} % 将扉页、任务书等PDF导入，如果不需要，可以注释这行。
 %\maketitle
-% 插入目录
+
+\newpage
+\setcounter{page}{1}
 \pagestyle{fancycontent}
+
+% 插入目录
 \tableofcontents
 \thispagestyle{fancycontent}
 
@@ -126,9 +130,7 @@
 \include{./texs/Abstract_English} % 请转到该文档中填写英文摘要
 
 \mainmatter
-
 \newpage
-%\setcounter{page}{1}
 \pagestyle{fancymaintext}
 
 \newcommand{\NewChapter}[1]{\chapter{#1}\thispagestyle{fancymaintext}}
