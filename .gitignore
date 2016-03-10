@@ -16,6 +16,7 @@
 # *.eps
 # *.pdf
 ./tex/main.pdf
+./docs/frontpages.pdf
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
